@@ -35,7 +35,7 @@
     {
       "type": "chef-solo",
       "cookbook_paths": ["./cookbooks"],
-      "run_list":["node-server::default"]
+      "run_list":["node::default"]
     },
     {
       "type": "shell",
